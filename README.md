@@ -6,7 +6,8 @@ Aplicação para consulta de dados meteorológicos em tempo real, consumindo a *
 
 ## Demonstração
 
-![1768237390483](image/README/1768237390483.png)
+<img width="825" height="523" alt="image" src="https://github.com/user-attachments/assets/fbe29ef1-8cb0-4ca8-a51d-db529c57b0e9" />
+
 
 ---
 
@@ -16,7 +17,8 @@ Todo o desenvolvimento realizado em **Java** neste projeto (consumo de API, mani
 
 - Curso: **Curso de Java para Iniciantes com Projetos (Udemy)**
 - Link: www.udemy.com/course/curso-de-java-para-iniciantes-com-projetos/
-  ![1768237439979](image/README/1768237439979.png)
+ ![Uploading image.png…]()
+
 
 ---
 
