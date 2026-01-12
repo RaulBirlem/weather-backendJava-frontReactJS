@@ -1,18 +1,73 @@
-# React + Vite
+# Clima — Backend (Java/Spring Boot) + Frontend (React/Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação para consulta de dados meteorológicos em tempo real, consumindo a **WeatherAPI** e exibindo no frontend as principais informações de clima da cidade informada.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demonstração
 
-## React Compiler
+![1768237390483](image/README/1768237390483.png)
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+---
 
-Note: This will impact Vite dev & build performances.
+## Sobre o aprendizado em Java
 
-## Expanding the ESLint configuration
+Todo o desenvolvimento realizado em **Java** neste projeto (consumo de API, manipulação de dados, estruturação do backend e endpoint HTTP com Spring Boot) foi construído com base no conhecimento adquirido no curso:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Curso: **Curso de Java para Iniciantes com Projetos (Udemy)**
+- Link: www.udemy.com/course/curso-de-java-para-iniciantes-com-projetos/
+  ![1768237439979](image/README/1768237439979.png)
+
+---
+
+## Funcionalidades
+
+- Buscar clima atual por cidade
+- Exibir:
+  - Cidade e país
+  - Última atualização
+  - Temperatura atual
+  - Sensação térmica
+  - Condição do tempo
+  - Umidade
+  - Velocidade do vento
+  - Pressão atmosférica
+- Tradução da condição do tempo no frontend via `condition.code` (pt-BR)
+
+---
+
+## Stack / Tecnologias
+
+### Backend
+
+- Java
+- Spring Boot (API REST)
+- Maven
+- HttpClient (Java) para consumo da WeatherAPI
+
+### Frontend
+
+- React
+- Vite
+- Fetch API
+
+## Requisitos
+
+- Java 21+ (recomendado LTS)
+- Maven 3.9+
+- Node.js 18+ (recomendado)
+- Conta/Key da WeatherAPI
+
+---
+
+## Configuração da chave (WeatherAPI)
+
+Este projeto utiliza uma chave da WeatherAPI.
+
+### Backend
+
+Crie o arquivo:
+
+`src/main/resources/apiKey.txt`
+
+Conteúdo do arquivo (somente a chave, sem aspas):
