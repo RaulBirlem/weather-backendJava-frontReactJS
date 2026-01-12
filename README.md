@@ -17,7 +17,8 @@ Todo o desenvolvimento realizado em **Java** neste projeto (consumo de API, mani
 
 - Curso: **Curso de Java para Iniciantes com Projetos (Udemy)**
 - Link: www.udemy.com/course/curso-de-java-para-iniciantes-com-projetos/
- ![Uploading image.png…]()
+ <img width="1600" height="1190" alt="image" src="https://github.com/user-attachments/assets/de925779-0aa0-4071-a597-08682f899e50" />
+
 
 
 ---
